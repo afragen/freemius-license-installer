@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'e03340427c0a09acf244583dc56ac164ad32f27e',
+        'name' => 'afragen/git-updater-licensing',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'afragen/git-updater-licensing' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'e03340427c0a09acf244583dc56ac164ad32f27e',
+            'dev_requirement' => false,
+        ),
+        'afragen/wp-dependency-installer' => array(
+            'pretty_version' => '4.3.3',
+            'version' => '4.3.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../afragen/wp-dependency-installer',
+            'aliases' => array(),
+            'reference' => '5947e52d91969d2fc8e47a25c02325643b154ec8',
+            'dev_requirement' => false,
+        ),
+        'afragen/wp-dismiss-notice' => array(
+            'pretty_version' => '0.2.3',
+            'version' => '0.2.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../afragen/wp-dismiss-notice',
+            'aliases' => array(),
+            'reference' => '21949732f1ea21d81500bdda8f882ac7eb0f98af',
+            'dev_requirement' => false,
+        ),
+    ),
+);

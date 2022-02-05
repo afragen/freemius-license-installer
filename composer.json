@@ -1,0 +1,23 @@
+{
+  "name": "afragen/git-updater-licensing",
+  "description": "Add Freemius licenses to Git Updater plugins.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Fragen",
+      "email": "andy@thefragens.com",
+      "homepage": "https://thefragens.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/afragen/git-updater-licensing/issues",
+    "source": "https://github.com/afragen/git-updater-licensing"
+  },
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7 || >=8",
+    "afragen/wp-dependency-installer": "^4"
+  }
+}
