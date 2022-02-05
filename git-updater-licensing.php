@@ -48,6 +48,7 @@ add_action(
 	}
 );
 
-define( 'FS_SHORTCODES', [ 'gup_fs', 'gua_fs' ] );
+define( 'FS_SHORTCODES', [ 'gup_fs', 'gua_fs', 'gru_fs' ] );
 define( 'WP__GUP_FS__LICENSE_KEY', 'sk_8f9W_vJiTyZ0.&_3@tP2-MwpQw9Zt' );
 define( 'WP__GUA_FS__LICENSE_KEY', 'sk_gYgpi.JtX=o2qvFk2aj3RD+cEVU3u' );
+define( 'WP__GRU_FS__LICENSE_KEY', 'sk_pM50Qt3.G:iz5NQc=X+@xb^gR&5ub' );
