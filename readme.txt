@@ -11,7 +11,7 @@ Donate link:       <https://thefragens.com/git-updater-donate>
 
 Add Freemius licensing from `.env` file. Uses https://github.com/squarecandy/freemius-auto-activation plugin.
 
-Activating this plugin take your plugin license data from a `.env` file located in the same directory as your WordPress installation. This is not at the root level of your WordPress installation, it is one level up. This is so it is outside of any potential browser path.
+Activating this plugin take your license data from a `.env` file located in the same directory as your WordPress installation. This is not at the root level of your WordPress installation, it is one level up. This is so it is outside of any potential browser path.
 
 A PHP Fatal Exception error on activation will be thrown if the `.env` file is not found in the correct path.
 
@@ -45,7 +45,7 @@ A PHP Fatal Exception error on activation will be thrown if the `.env` file is n
 
 Refer to `.env.example` for the format of the `.env` file.
 
-The shortcode is unique to each Freemius integrated plugin. Ask the plugin developer for this shortcode. It is usually evident in the Freemius integration for the plugin.
+The shortcode is unique to each Freemius integrated plugin or theme. Ask the plugin developer for this shortcode. It is usually evident in the Freemius integration code.
 
 It will also automatically install and activate the [Freemius Auto Activation](https://github.com/squarecandy/freemius-auto-activation) plugin.
 
