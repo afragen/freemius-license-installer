@@ -1,16 +1,15 @@
 # Freemius License Installer
-
-* Author:            Andy Fragen
-* License:           MIT
-* Requires at least: 5.2
-* Requires PHP:      7.1
-* Tested up to:      trunk
-* Stable version:    main
-* Donate link:       <https://thefragens.com/git-updater-donate>
-
-Add Freemius licensing from `.env` file. Uses https://github.com/squarecandy/freemius-auto-activation plugin.
+Author:            Andy Fragen
+License:           MIT
+Requires at least: 5.2
+Requires PHP:      7.1
+Tested up to:      trunk
+Stable version:    main
+Donate link:       <https://thefragens.com/git-updater-donate>
 
 ## Description
+
+Add Freemius licensing from `.env` file. Uses https://github.com/squarecandy/freemius-auto-activation plugin.
 
 Activating this plugin take your plugin license data from a `.env` file located in the same directory as your WordPress installation. This is not at the root level of your WordPress installation, it is one level up. This is so it is outside of any potential browser path.
 

@@ -2,9 +2,10 @@
 /**
  * Freemius License Installer.
  *
- * @package c
+ * @package freemius-license-installer
  * @author  Andy Fragen
  * @link    https://github.com/afragen/freemius-license-installer
+ * @uses    https://github.com/squarecandy/freemius-auto-activation
  *
  * Plugin Name:       Freemius License Installer
  * Plugin URI:        https://github.com/afragen/freemius-license-installer
