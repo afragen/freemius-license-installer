@@ -1,1 +1,1 @@
-# git-updater-licensing
+# freemius license installer
