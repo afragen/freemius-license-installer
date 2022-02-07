@@ -5,9 +5,9 @@
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '23e3960738e25734b8a160cd51eb722ce08a1a11',
+        'reference' => 'fa80bf9db11b11e88cb13bfc48e24e22e208f93d',
         'name' => 'afragen/git-updater-licensing',
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'afragen/git-updater-licensing' => array(
@@ -16,7 +16,7 @@
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '23e3960738e25734b8a160cd51eb722ce08a1a11',
+            'reference' => 'fa80bf9db11b11e88cb13bfc48e24e22e208f93d',
             'dev_requirement' => false,
         ),
         'afragen/wp-dependency-installer' => array(

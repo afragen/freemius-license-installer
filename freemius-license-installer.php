@@ -49,7 +49,7 @@ add_action(
 );
 
 // Load licenses from .env file.
-( \Dotenv\Dotenv::createImmutable( dirname(\ABSPATH )) )->load();
+( \Dotenv\Dotenv::createImmutable( dirname( \ABSPATH ) ) )->load();
 
 $fs_shortcodes = explode( ',', $_ENV['fs_shortcodes'] );
 
