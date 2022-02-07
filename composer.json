@@ -1,6 +1,6 @@
 {
-  "name": "afragen/git-updater-licensing",
-  "description": "Add Freemius licenses to Git Updater plugins.",
+  "name": "afragen/freemius-license-installer",
+  "description": "Add Freemius licensing from .env file.",
   "type": "wordpress-plugin",
   "license": "MIT",
   "authors": [
@@ -12,8 +12,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/afragen/git-updater-licensing/issues",
-    "source": "https://github.com/afragen/git-updater-licensing"
+    "issues": "https://github.com/afragen/freemius-license-installer/issues",
+    "source": "https://github.com/afragen/freemius-license-installer"
   },
   "prefer-stable": true,
   "require": {
