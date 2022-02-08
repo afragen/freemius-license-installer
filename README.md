@@ -12,7 +12,7 @@ Add Freemius licensing from `.env` file. Uses https://github.com/squarecandy/fre
 
 ## Description
 
-Activating this plugin take your license data from a `.env` file located in the same directory as your WordPress installation. This is not at the root level of your WordPress installation, it is one level up. This is so it is outside of any potential browser path.
+Activating this plugin loads your license data from a `.env` file located in the same directory as your WordPress installation. This is not at the root level of your WordPress installation, it is one level up. This is so it is outside of any potential browser path.
 
 A PHP Fatal Exception error on activation will be thrown if the `.env` file is not found in the correct path.
 
