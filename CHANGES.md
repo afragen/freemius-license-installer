@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.2.1 / 2022-05-25
+* composer update
+
 #### 0.2.0 / 2022-02-07
 * use `.env` file for license data
 * use `vlucas/phpdotenv` to read `.env` data
