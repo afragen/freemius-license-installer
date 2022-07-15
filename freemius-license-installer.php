@@ -10,7 +10,7 @@
  * Plugin Name:       Freemius License Installer
  * Plugin URI:        https://github.com/afragen/freemius-license-installer
  * Description:       Add Freemius licensing from .env file.
- * Version:           0.2.1
+ * Version:           0.2.2
  * Author:            Andy Fragen
  * License:           MIT
  * Requires at least: 5.2
@@ -57,4 +57,17 @@ $fs_shortcodes = explode( ',', $_ENV['fs_shortcodes'] );
 define( 'FS_SHORTCODES', $fs_shortcodes );
 foreach ( $fs_shortcodes as $fs_shortcode ) {
 	define( 'WP__' . strtoupper( $fs_shortcode ) . '__LICENSE_KEY', $_ENV[ $fs_shortcode ] );
+}
+
+register_deactivation_hook( __FILE__, __NAMESPACE__ . '\delete_freemius_auto_activation' );
+
+/**
+ * Upon deactivation, delete freemius-auto-activation plugin.
+ *
+ * @return void
+ */
+function delete_freemius_auto_activation() {
+	global $wp_filesystem;
+
+	$wp_filesystem->delete( $wp_filesystem->wp_plugins_dir() . 'freemius-auto-activation', true );
 }

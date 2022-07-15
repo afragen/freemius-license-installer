@@ -52,4 +52,4 @@ It will also automatically install and activate the [Freemius Auto Activation](h
 
 After running, the licenses with be loaded in the WordPress database. You may still be asked to opt in to telemetry data. Please agree to this instead of skipping.
 
-After running this plugin, it and the the Freemius Auto Activation plugin may be deactivated and/or deleted.
+After running this plugin, it may be deactivated and/or deleted. Upon deactivation, the Freemius Auto Activation plugin will be deleted.

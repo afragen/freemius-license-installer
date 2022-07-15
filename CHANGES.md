@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.2.2 / 2022-07-15
+* delete Freemius Auto Activation plugin on deactivation
+
 #### 0.2.1 / 2022-05-25
 * composer update
 
