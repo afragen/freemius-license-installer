@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.3.0 / 2022-09-24
+* ensure `$wp_filesystem` is loaded
+
 #### 0.2.2 / 2022-07-15
 * delete Freemius Auto Activation plugin on deactivation
 * composer update
