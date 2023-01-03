@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.4.0 / 2023-01-02
+* composer update
+
 #### 0.3.0 / 2022-09-24
 * ensure `$wp_filesystem` is loaded
 
