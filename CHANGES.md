@@ -1,6 +1,9 @@
 [unreleased]
 
-#### 0.5.0
+#### 0.6.0 / 2023-01-31
+*fix composer issue
+
+#### 0.5.0 / 2023-01-19
 * composer update
 
 #### 0.4.0 / 2023-01-02
