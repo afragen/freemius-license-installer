@@ -1,5 +1,9 @@
 [unreleased]
 
+#### 1.0.0 / 2023-04-14
+* add .env to plugin root, tradeoff less secure but easier to distribute
+* update requirements
+
 #### 0.8.0 / 2023-04-04
 * composer update
 

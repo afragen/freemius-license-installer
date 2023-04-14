@@ -10,11 +10,11 @@
  * Plugin Name:       Freemius License Installer
  * Plugin URI:        https://github.com/afragen/freemius-license-installer
  * Description:       Add Freemius licensing from .env file.
- * Version:           0.8.0
+ * Version:           1.0.0
  * Author:            Andy Fragen
  * License:           MIT
- * Requires at least: 5.2
- * Requires PHP:      7.1
+ * Requires at least: 5.9
+ * Requires PHP:      7.2
  * GitHub Plugin URI: https://github.com/afragen/freemius-license-installer
  * Primary Branch:    main
  */
@@ -49,7 +49,7 @@ add_action(
 );
 
 // Load licenses from .env file.
-( \Dotenv\Dotenv::createImmutable( dirname( \ABSPATH ) ) )->load();
+( \Dotenv\Dotenv::createImmutable( dirname( __FILE__ ) ) )->load();
 
 $fs_shortcodes = explode( ',', $_ENV['fs_shortcodes'] );
 

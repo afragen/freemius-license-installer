@@ -3,7 +3,7 @@
         'name' => 'afragen/freemius-license-installer',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '462215e67fde2b1fcf0ba5d2676ad567634584c4',
+        'reference' => 'aee369bd0e22052c168acb85477139f4e77b4ccf',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'afragen/freemius-license-installer' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '462215e67fde2b1fcf0ba5d2676ad567634584c4',
+            'reference' => 'aee369bd0e22052c168acb85477139f4e77b4ccf',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
