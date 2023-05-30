@@ -10,7 +10,7 @@
  * Plugin Name:       Freemius License Installer
  * Plugin URI:        https://github.com/afragen/freemius-license-installer
  * Description:       Add Freemius licensing from .env file.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Andy Fragen
  * License:           MIT
  * Requires at least: 5.9
